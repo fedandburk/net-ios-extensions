@@ -1,9 +1,9 @@
 # Extensions for .NET iOS
 ![GitHub](https://img.shields.io/github/license/fedandburk/net-ios-extensions.svg)
-![Nuget](https://img.shields.io/nuget/v/fedandburk.iOS.Extensions.svg)
-[![CI](https://github.com/fedandburk/Net.Xamarin.iOS.Extensions/actions/workflows/ci.yml/badge.svg)](https://github.com/fedandburk/Net.Xamarin.iOS.Extensions/actions/workflows/ci.yml)
-[![CD](https://github.com/fedandburk/Net.Xamarin.iOS.Extensions/actions/workflows/cd.yml/badge.svg)](https://github.com/fedandburk/Net.Xamarin.iOS.Extensions/actions/workflows/cd.yml)
-[![CodeFactor](https://www.codefactor.io/repository/github/fedandburk/net.xamarin.ios.extensions/badge)](https://www.codefactor.io/repository/github/fedandburk/net.xamarin.ios.extensions)
+![Nuget](https://img.shields.io/nuget/v/Fedandburk.iOS.Extensions.svg)
+[![CI](https://github.com/fedandburk/net-ios-extensions/actions/workflows/ci.yml/badge.svg)](https://github.com/fedandburk/net-ios-extensions/actions/workflows/ci.yml)
+[![CD](https://github.com/fedandburk/net-ios-extensions/actions/workflows/cd.yml/badge.svg)](https://github.com/fedandburk/net-ios-extensions/actions/workflows/cd.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/fedandburk/net-ios-extensions/badge)](https://www.codefactor.io/repository/github/fedandburk/net-ios-extensions)
 
 Extensions is a .NET library with common iOS extensions and helpers.
 
