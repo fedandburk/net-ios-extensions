@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <PackageId>Fedandburk.iOS.Extensions</PackageId>
+    <PackageVersion>1.0.7</PackageVersion>
+    <Title>.NET iOS Extensions</Title>
+    <Description>A collection of extensions for .NET iOS.</Description>
+    <Copyright>FEDANDBURK</Copyright>
+    <Authors>Prin53, FEDANDBURK</Authors>
+    <Owners>Prin53, FEDANDBURK</Owners>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageTags>xamarin, xamarin.ios, extensions</PackageTags>
+    <PackageIconUrl>https://static.fedandburk.com/logo.svg</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/fedandburk/net-ios-extensions</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Use .NET 7</PackageReleaseNotes>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/fedandburk/net-ios-extensions</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
