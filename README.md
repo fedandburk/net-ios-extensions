@@ -20,6 +20,23 @@ Install-Package Fedandburk.iOS.Extensions
 using Fedandburk.iOS.Extensions;
 ```
 
+### Generic UITableViewSource
+To easily bind items collection or a collection of collections, e.g. groups, the `TableViewSource` class can be used.
+
+`TableViewSource` also supports:
+- Live collections (including groups), e.g. collections that implement `INotifyCollectionChanged` interface
+- Row animations customisation
+- Animated row expanding
+- Rows editing and removing
+- Rows moving
+- Rows selection with automatic deselection
+- Accessory buttons handling
+- Custom section footers and headers
+
+```cs
+@object.InvokeOnMainThreadIfNeeded(action); 
+```
+
 ### NSObject Extensions
 To perform an `Action` on the main UI thread with the current thread check:
 
