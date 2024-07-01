@@ -221,7 +221,7 @@ public abstract class TableViewSource : UITableViewSource
                 MoveSectionItems(section, args);
                 break;
             case NotifyCollectionChangedAction.Reset:
-                ReloadTableViewData();
+                ReloadSection(section);
                 break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(NotifyCollectionChangedEventArgs), args, null);
@@ -372,6 +372,11 @@ public abstract class TableViewSource : UITableViewSource
             NSIndexPath.FromRowSection(args.OldStartingIndex, section),
             NSIndexPath.FromRowSection(args.NewStartingIndex, section)
         );
+    }
+
+    private void ReloadSection(int section)
+    {
+        TableView.ReloadSections(NSIndexSet.FromIndex(section), UITableViewRowAnimation.Automatic);;
     }
 
     private static NSIndexPath[] CreateIndexPaths(int startingPosition, int count, nint section)
