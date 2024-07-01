@@ -14,10 +14,7 @@ public static class UiColorExtensions
     /// <exception cref="ArgumentNullException">if <c>UIColor</c> is <c>null</c></exception>
     public static string ToHexColor(this UIColor color)
     {
-        if (color == null)
-        {
-            throw new ArgumentNullException(nameof(color));
-        }
+        ArgumentNullException.ThrowIfNull(color);
 
         color.GetRGBA(out var red, out var green, out var blue, out var alpha);
 
@@ -32,10 +29,7 @@ public static class UiColorExtensions
     /// <exception cref="ArgumentNullException">if <c>UIColor</c> is <c>null</c></exception>
     public static Color ToColor(this UIColor color)
     {
-        if (color == null)
-        {
-            throw new ArgumentNullException(nameof(color));
-        }
+        ArgumentNullException.ThrowIfNull(color);
 
         color.GetRGBA(out var red, out var green, out var blue, out var alpha);
 
