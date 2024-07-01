@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0-ios</TargetFramework>
+    <TargetFramework>net8.0-ios</TargetFramework>
     <Nullable>enable</Nullable>
     <PackageId>Fedandburk.iOS.Extensions</PackageId>
-    <PackageVersion>1.0.8</PackageVersion>
+    <PackageVersion>1.0.9</PackageVersion>
     <Title>.NET iOS Extensions</Title>
     <Description>A collection of extensions for .NET iOS.</Description>
     <Copyright>FEDANDBURK</Copyright>
@@ -16,7 +16,7 @@
     <PackageProjectUrl>https://github.com/fedandburk/net-ios-extensions</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>Add generic TableViewSource</PackageReleaseNotes>
+    <PackageReleaseNotes>Migrated to .NET 8.</PackageReleaseNotes>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/fedandburk/net-ios-extensions</RepositoryUrl>

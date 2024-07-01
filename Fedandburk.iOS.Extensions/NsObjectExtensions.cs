@@ -12,15 +12,8 @@ public static class NsObjectExtensions
     /// <param name="action">Action to invoke.</param>
     public static void InvokeOnMainThreadIfNeeded(this NSObject @object, Action action)
     {
-        if (@object == null)
-        {
-            throw new ArgumentNullException(nameof(@object));
-        }
-
-        if (action == null)
-        {
-            throw new ArgumentNullException(nameof(action));
-        }
+        ArgumentNullException.ThrowIfNull(@object);
+        ArgumentNullException.ThrowIfNull(action);
 
         if (NSThread.IsMain)
         {
