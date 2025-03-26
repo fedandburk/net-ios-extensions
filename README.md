@@ -33,10 +33,6 @@ To easily bind items collection or a collection of collections, e.g. groups, the
 - Accessory buttons handling
 - Custom section footers and headers
 
-```cs
-@object.InvokeOnMainThreadIfNeeded(action); 
-```
-
 ### NSObject Extensions
 To perform an `Action` on the main UI thread with the current thread check:
 
